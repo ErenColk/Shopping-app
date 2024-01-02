@@ -1,0 +1,130 @@
+
+.main-div{
+   height: 50px; 
+   display: flex;
+   flex-direction: row;  
+   gap: 20px;
+   justify-content: space-between;
+   padding: 0 20px; 
+   align-items: center;
+   background-color: #050521;
+
+}
+
+.main-ul li a {
+    text-decoration: none; 
+    color: white; 
+  }
+  
+  .main-ul li a:hover {
+    text-decoration: none;
+    color: red; 
+  }
+  
+  .title a {
+    text-decoration: none; 
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:  #f7941d;
+    font-weight: bold;
+}
+  
+
+
+
+.main-div>ul{
+    display: flex;
+    flex-direction: row;  
+    list-style-type: none;
+    gap: 35px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+.product-item {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.product-item img {
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.product-details {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.product-details > p {
+  color: black;
+  font-size: 20px;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.fa-trash{
+  margin-right:10px ;
+  font-size: 20px;
+}
+#pozitive:hover{
+  background-color: green;
+}
+#negative:hover{
+  background-color: red;
+}
+.quantity-number{
+  color: black;
+  margin-top:8px ;
+  font-size: 20px;
+}
+.quantity-button{
+  padding: 15px;
+  border:1px solid #f7941d ;
+  border-radius: 10px;
+}
+.quantity-control{
+  display: flex;
+  align-items: center;
+  gap:10px;
+  margin-right: 10px;
+
+}
+.basket-button {
+  display: flex;
+  justify-content: space-between;
+  gap:50px
+}
+
+.basket-button > button {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.btn-closed:hover {
+  background-color: red;
+  color: white;
+}
+
+.btn-buy:hover {
+  background-color: green;
+  color: white;
+}
+
+.total-price {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+
+

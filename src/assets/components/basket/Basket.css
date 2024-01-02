@@ -1,0 +1,40 @@
+/* Modal.css */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .modal {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .product-info img {
+    width: 100px; /* İsteğe bağlı: Fotoğraf genişliği */
+    height: 100px; /* İsteğe bağlı: Fotoğraf yüksekliği */
+    margin-right: 20px;
+  }
+  
+  .product-details p {
+    margin: 0;
+  }
+  
+  .modal button {
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
